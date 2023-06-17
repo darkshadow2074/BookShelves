@@ -10,7 +10,7 @@ export const books = [
     id: 2,
     title: "1984",
     author: "George Orwell",
-    img: "https://m.media-amazon.com/images/I/41j-s9fHJcL.jpg",
+    img: "https://m.media-amazon.com/images/I/514CVwOrybL._AC_UF1000,1000_QL80_.jpg",
     category: "want to read",
   },
   {
