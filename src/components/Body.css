@@ -1,0 +1,129 @@
+.homepage {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #f7f7f7;
+}
+.currently-reading-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+h1 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 12px;
+}
+.category-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.book-card {
+  padding: 1rem;
+  width: 100%;
+}
+.book-card {
+  width: 220px;
+  position: relative;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card .title {
+  font-size: 18px;
+}
+.select-category {
+  position: absolute;
+  bottom: 64px;
+  right: 19px;
+  border-radius: 50%;
+  background-color: #7cdf7c;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+}
+.select-category svg {
+  color: white;
+}
+.show-action-box-modal {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 13;
+}
+.actions {
+  top: 0;
+  bottom: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  left: 0;
+  margin: auto;
+  max-height: 65%;
+  max-width: 440px;
+  position: fixed;
+  right: 0;
+  background-color: #f5f5f6;
+}
+.small-title {
+  color: gray;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+.actions p {
+  padding-top: 8px;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px;
+}
+.options p {
+  cursor: pointer;
+}
+.options p:hover {
+  color: #ff754e;
+}
+@media screen and (min-width: 280px) {
+  h1 {
+    font-size: 24px;
+  }
+  .category-data {
+    flex-direction: column;
+  }
+  .card img {
+    width: 180px;
+    height: 300px;
+  }
+  .select-category {
+    bottom: 64px;
+    right: 19px;
+  }
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 36px;
+  }
+  .category-data {
+    flex-direction: row;
+  }
+  .card img {
+    width: 220px;
+  }
+  .select-category {
+    bottom: 76px;
+    right: -22px;
+  }
+}

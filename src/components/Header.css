@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  padding: 12px;
+  justify-content: flex-start;
+  gap: 1.2rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  background-color: white;
+}
+.navbar .title {
+  color: #ff754e;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.search-link a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 18px;
+  color: black;
+}
